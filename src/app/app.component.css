@@ -1,0 +1,13 @@
+h1{text-align: center;}
+ul{list-style-type: none;}
+label{font-weight: bold; font-size:14pt}
+
+@media(min-width:300px){
+  li{margin: 5px;}
+  .frmVerzoek li input{position:absolute; left:150px;}
+}
+
+@media(min-width:900px){
+  li{margin: 10px;}
+  .frmVerzoek li input{position:absolute; left:175px;}
+}

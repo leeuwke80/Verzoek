@@ -7,17 +7,17 @@
 </head>
 <body>
     <h1>{{titel}}</h1>
-    <ul>
+    <ul class="frmVerzoek">
         <li>
-            <label for="aanvrager"></label>
+            <label for="aanvrager">Aanvrager</label>
             <input [(ngModel)]="ngAanvrager" type="text" placeholder="Wie doet her verzoek?" id="aanvrager" />
         </li>
         <li>
-            <label for="artiest"></label>
+            <label for="artiest">Artiest</label>
             <input [(ngModel)]="ngArtiest" type="text" placeholder="Van wie is't lieke?" id="artiest" />
         </li>
         <li>
-            <label for="nummer"></label>
+            <label for="nummer">Nummer</label>
             <input [(ngModel)]="ngNummer" type="text" placeholder="Welk lieke is't?" id="nummer" />
         </li>
         <li><button (click)="aanvragen()">Aanvragen</button></li>
